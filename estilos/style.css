@@ -61,6 +61,7 @@ main {
 }
 
 #formulario > p {
+  padding-bottom: 10px;
   font-size: 0.8em;
   text-align: center;
 }
@@ -70,6 +71,14 @@ form > div.campo {
   height: 25px;
   width: 100%;
   background-image: -o-linear-gradient(to top, #87ceeb, #f0ffff);
+}
+
+div.campo > #person {
+  transform: translateY(5px);
+}
+
+div.campo > #key {
+  transform: translateY(5px);
 }
 
 .Lopes {
@@ -123,11 +132,26 @@ form > a.botao:hover {
   background-color: #a0ddf5;
 }
 
+div.campo > span {
+  color: #f0ffff;
+  display: inline-block;
+  padding-left: 8px;
+}
+div.campo > input {
+  padding-right: 34px;
+  margin-bottom: 23px;
+  width: calc(100% - 39px);
+  border: none;
+  padding: 5px;
+  border-radius: 20px;
+}
+
 form > a.botao > i {
   font-size: 1em;
 }
 
 form > div.campo {
+  padding-bottom: 35px;
   display: block;
   width: 100%;
   height: 30px;
